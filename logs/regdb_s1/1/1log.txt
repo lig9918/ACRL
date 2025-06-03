@@ -1,0 +1,22 @@
+==========
+Args:Namespace(arch='resnet50', batch_size=64, data_dir='/opt/data/private/Cross-modality/test/USL-VI-ReID-main/data', dataset='dukemtmcreid', dropout=0, epochs=30, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=100, k1=30, k2=6, logs_dir='/opt/data/private/Cross-modality/test/USL-VI-ReID-main/logs/regdb_s1/1', lr=0.00035, momentum=0.2, no_cam=False, num_instances=4, pooling_type='gem', print_freq=10, seed=1, step_size=10, temp=0.05, trial=1, use_hard=False, weight_decay=0.0005, width=144, workers=4)
+==========
+==> Load unlabeled dataset
+=> regdb_ir loaded 1
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   206 |     2060 |         1
+  query    |   206 |      824 |         1
+  gallery  |   206 |     2060 |         1
+  ----------------------------------------
+=> regdb_rgb loaded 1
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   206 |     2060 |         1
+  query    |   206 |      824 |         1
+  gallery  |   206 |     2060 |         1
+  ----------------------------------------
